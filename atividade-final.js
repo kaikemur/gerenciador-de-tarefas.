@@ -26,3 +26,12 @@ console.log(` tarefa Removida:`, tarefaRemovida);
 
 console.log(`---------------------------------------------------------------------------`);
 
+//Etapa 3
+
+console.log(`antes da nova tarefa`,tarefas);
+
+tarefas.unshift(`estudar para prova`)
+
+console.log(`depois da nova tarefa`,tarefas);
+
+console.log(`---------------------------------------------------------------------------`);
