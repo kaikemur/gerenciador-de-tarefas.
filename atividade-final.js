@@ -56,3 +56,9 @@ console.log(`-------------------------------------------------------------------
 console.log(`tarefas como string : ${tarefas.join(`, `)}`);
 
 console.log(`---------------------------------------------------------------------------`);
+
+//Etapa 7
+
+console.log("parte da lista de tarefas (indices 2 ao 4):",tarefas.slice(2, 5))
+
+//Etapa 8
