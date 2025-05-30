@@ -90,7 +90,11 @@ console.log(`-------------------------------------------------------------------
 
  //Etapa 11
  let tarefasFiltadas=tarefas.filter(tarefas=> tarefas.length > 15)
- 
+
  console.log(`tarefas filtradas (tarefas com mais de 15 caracteres): ${tarefasFiltadas}`);
  
  console.log(`---------------------------------------------------------------------------`);
+
+ //Etapas 12
+tarefas.sort();
+console.log("tarefas ordenada:",tarefas);
