@@ -35,3 +35,16 @@ tarefas.unshift(`estudar para prova`)
 console.log(`depois da nova tarefa`,tarefas);
 
 console.log(`---------------------------------------------------------------------------`);
+
+//Etapa 4
+
+console.log(`Antes de remover a primeira tarefa do array`,tarefas);
+
+tarefas.shift(``)
+
+console.log(`Depois de remover a primeira tarefa do array`, tarefas);
+
+console.log(`---------------------------------------------------------------------------`);
+
+//Etapa 5
+console.log("A playlist inclui `Ir à academia`?" , tarefas.includes(`Ir à academia`));
