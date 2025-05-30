@@ -48,3 +48,11 @@ console.log(`-------------------------------------------------------------------
 
 //Etapa 5
 console.log("A playlist inclui `Ir à academia`?" , tarefas.includes(`Ir à academia`));
+
+console.log(`---------------------------------------------------------------------------`);
+
+//Etapa 6
+
+console.log(`tarefas como string : ${tarefas.join(`, `)}`);
+
+console.log(`---------------------------------------------------------------------------`);
