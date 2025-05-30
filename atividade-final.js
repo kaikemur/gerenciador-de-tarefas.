@@ -82,9 +82,15 @@ console.log(`tarefas combinadas: ${tarefas.concat(tarefasNovas)}`);
 
 console.log(`---------------------------------------------------------------------------`);
 //Etapa 10
- let comoTexto= tarefas.map(tarefas =>`Fazer ${tarefas}`); 
+ let comoTexto= tarefas.map(tarefas =>`Fazer : ${tarefas}`); 
 
  console.log(`tarefas: ${comoTexto.join(`, `)}`);
 
  console.log(`---------------------------------------------------------------------------`);
+
+ //Etapa 11
+ let tarefasFiltadas=tarefas.filter(tarefas=> tarefas.length > 15)
  
+ console.log(`tarefas filtradas (tarefas com mais de 15 caracteres): ${tarefasFiltadas}`);
+ 
+ console.log(`---------------------------------------------------------------------------`);
