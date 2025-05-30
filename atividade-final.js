@@ -98,3 +98,9 @@ console.log(`-------------------------------------------------------------------
  //Etapas 12
 tarefas.sort();
 console.log("tarefas ordenada:",tarefas);
+
+console.log(`---------------------------------------------------------------------------`);
+
+//Etapa 13
+let tarefasInvertidas=tarefas.reverse();
+console.log(`tarefas invertidas: ${tarefasInvertidas}`);
