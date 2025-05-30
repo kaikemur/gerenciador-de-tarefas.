@@ -61,4 +61,15 @@ console.log(`-------------------------------------------------------------------
 
 console.log("parte da lista de tarefas (indices 2 ao 4):",tarefas.slice(2, 5))
 
+console.log(`---------------------------------------------------------------------------`);
+
 //Etapa 8
+let tarefaRemovidas= tarefas.splice(3,1, (`jogar futebol`))
+
+console.log(`tarefa removida: ${tarefaRemovidas}`);
+
+console.log(`depois ${tarefas}`);
+
+console.log(`---------------------------------------------------------------------------`);
+
+//Etapa 9
