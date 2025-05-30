@@ -81,3 +81,10 @@ console.log(`tarefas combinadas: ${tarefas.concat(tarefasNovas)}`);
 
 
 console.log(`---------------------------------------------------------------------------`);
+//Etapa 10
+ let comoTexto= tarefas.map(tarefas =>`Fazer ${tarefas}`); 
+
+ console.log(`tarefas: ${comoTexto.join(`, `)}`);
+
+ console.log(`---------------------------------------------------------------------------`);
+ 
