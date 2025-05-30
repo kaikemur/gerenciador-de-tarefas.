@@ -73,3 +73,11 @@ console.log(`depois ${tarefas}`);
 console.log(`---------------------------------------------------------------------------`);
 
 //Etapa 9
+
+let tarefasNovas=["jogar cs","ir no aniversario do leo"]
+console.log(`tarefas antes`, tarefas);
+
+console.log(`tarefas combinadas: ${tarefas.concat(tarefasNovas)}`);
+
+
+console.log(`---------------------------------------------------------------------------`);
